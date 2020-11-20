@@ -1,0 +1,30 @@
+Quantity Digikey #	Description				Price	Schematic
+---------------------------------------------------------------------------------
+1	ATTINY461-20PU-ND IC MCU AVR 4K FLASH 20MHZ 20-DIP	$2.45	IC1
+1	ED3320-ND	IC SOCKET 20POS .300" DIP GOLD		$1.61
+
+1	X227-ND		CRYSTAL 12.000MHZ 20PF HC-49/US		$0.58	Q1
+2	1N5227BDICT-ND	DIODE ZENER 3.6V 500MW 5% DO-35		$0.72	D1,D2
+
+1 (5)	330QBK-ND	RES 330 OHM 1/4W 5% CARBON FILM		$0.27	R1
+1 (5)	1.0MQBK-ND	RES 1.0M OHM 1/4W 5% CARBON FILM	$0.27	R2
+2 (5)	68QBK-ND	RES 68 OHM 1/4W 5% CARBON FILM		$0.27	R3,R4
+3 (5)	2.2KQBK-ND	RES 2.2K OHM 1/4W 5% CARBON FILM	$0.27	R5,R6,R7
+
+1	P5177-ND	CAP 4.7UF 50V ALUM LYTIC RADIAL		$0.15	C1
+2	399-4267-ND	CAP 15PF 200V 5% CER RADIAL		$0.58	C3,C4
+2	399-4281-ND	CAP 2200PF 100V 5% CER RADIAL		$0.78	C5,C6
+1	399-4264-ND	CAP .1UF 50V 10% CER RADIAL		$0.21	C2
+
+1 (10)	67-1647-ND	LED 3MM SHORT LENS SUPER RED CLR	$2.78	LED1
+
+1	ED90064-ND	CONN RECEPT USB TYPE B PCB		$1.34	X1
+
+1	182-15FE-ND	CONN DB15 FEMAL .318" R/A NICKEL	$2.19	X2
+1	MFR15K-ND	D-SUB CONN RECP 15POS W/O INSERT	$4.91	X2
+
+Quantity numbers in () indicate minimum order quantities. The price given is for
+the minimum quantity in that case.
+
+The connectors for J2 are examples, you can use any female D-SUB 15 pin connetor
+you see fit.

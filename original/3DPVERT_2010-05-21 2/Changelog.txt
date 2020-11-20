@@ -1,0 +1,114 @@
+3DPVERT_2010-05-21
+------------------
+
+- updated Readme.txt
+
+
+3DPVERT_2009-10-27
+------------------
+
+- serial no. is now stored in the EEPROM
+
+
+3DPVERT_2009-09-30
+------------------
+
+- replaced iarcomp.h w/ includes.h in the AVRS project file
+- updated Readme.txt
+
+3DPVERT_2009-09-16
+------------------
+
+- updated code to most recent version
+- updated Readme.txt
+- updated to V-USB 20090822
+- updated to WinAVR-20090313, AVR Studio 4.17 build 666
+
+
+3DPVERT_2009-05-07
+------------------
+
+- added Fuse461PP.gif
+- updated Readme.txt
+- updated to V-USB 20090415
+
+
+3DPVERT_2009-03-07
+------------------
+
+- updated to AVR-USB 20081126
+- updated to WinAVR 20081205, AVR Studio 4.16 build 628
+
+
+3DPVERT_2008-11-15
+------------------
+
+- updated to AVR-USB 20081022
+- added 3DP-Vert2.pdf, updated bom.txt, Readme.txt
+
+
+3DPVERT_2008-08-03
+------------------
+
+- minor fixes in the documentation.
+
+
+3DPVERT_2008-06-22
+------------------
+
+- updated to AVR-USB 20080513
+- switched to rev2 based on ATtiny461. ATmega8 still included but deprecated.
+
+
+3DPVERT_2008-02-09
+------------------
+
+- updated to AVR-USB 20080205, supposed to fix 15/16MHz crystal code
+
+
+3DPVERT_2008-01-24
+------------------
+
+- updated to latest AVR-USB and tools
+
+
+3DPVERT_2007-07-06
+------------------
+
+- replaced AVRUSBBoot with BootloadHID
+
+3DPVERT_2007-06-25
+------------------
+
+- moved to USB stack version 20070625, added 16MHz crystal support
+
+3DPVERT_2007-06-21
+------------------
+
+- changed C8 & C9 to 4.7nF for FFP/PP support
+
+3DPVERT_2007-06-19
+------------------
+
+- added MS SideWinder Precision Pro and Force Feedback Pro support
+
+3DPVERT_2007-04-03
+------------------
+
+- moved to USBDRV version 20070329
+
+3DPVERT_2007-03-12
+------------------
+
+- added avrbootload cmd line
+
+3DPVERT_2007-01-19
+------------------
+
+- added bom.txt
+- added notes section in Readme.txt
+
+3DPVERT_2007-01-11
+------------------
+
+- first public version

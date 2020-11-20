@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/12/trunk
+END
+usb_hid.h
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/12/trunk/usb_hid.h
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/11/trunk/main.c
+END
+3DPro.c
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/12/trunk/3DPro.c
+END
+3DPro.aps
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/2/trunk/3DPro.aps
+END
+3DProasm.S
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/12/trunk/3DProasm.S
+END
+usbdescr.c
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/12/trunk/usbdescr.c
+END
+includes.h
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/12/trunk/includes.h
+END
+3DPro.h
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/12/trunk/3DPro.h
+END
+usb_hid.c
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/12/trunk/usb_hid.c
+END
+usbdescr.h
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/12/trunk/usbdescr.h
+END
