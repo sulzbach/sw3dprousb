@@ -7,3 +7,5 @@
 *.map
 *.sym
 *.lss
+*.o
+*.eep
