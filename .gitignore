@@ -1,4 +1,9 @@
 .DS_store
 .dep
-*.o
+*.more ignorance...*.o.d
 *.lst
+*.elf
+*.hex
+*.map
+*.sym
+*.lss
