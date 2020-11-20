@@ -10,3 +10,10 @@ Nothing here for now...
 
 * [sw3dprousb](https://code.google.com/archive/p/sw3dprousb/)
 
+## Useful Stuff
+
+### List USB Devices on Mac
+
+```bash
+ioreg -p IOUSB -l -w 0
+```
