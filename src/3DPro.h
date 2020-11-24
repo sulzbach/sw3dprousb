@@ -21,6 +21,10 @@
 
 //------------------------------------------------------------------------------
 
+#define USE_FAKE_JOYSTICK
+
+//------------------------------------------------------------------------------
+
 #define SIXAXIS 0  /* Experimental: joystick as POV	*/
 #define HID_PHYS 1 /* Physical min/max in HID report	*/
                    /* (W98 actually needs these...)	*/

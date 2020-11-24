@@ -361,11 +361,15 @@ static uint8_t Init3DPro(void)
 		// Try to read a data packet,
 		Query3DP(0, 126); // don't know how long (64 or 66) - let it time out
 
+#ifndef USE_FAKE_JOYSTICK
 		if (!sw_clkcnt || !~sw_clkcnt) // nothing..
 			return (FALSE);
+#endif
 
 		Delay_1024(T0DEL4MS); // Another break for the stick
 	}
+
+#ifndef USE_FAKE_JOYSTICK
 
 	if (sw_clkcnt == 64) // 3DP in 1-bit mode
 	{					 // Read ID, signal kick at -8 clk of data packet
@@ -403,6 +407,13 @@ static uint8_t Init3DPro(void)
 	//    }
 
 	return (FALSE); // Stick not found
+#endif
+
+#ifdef USE_FAKE_JOYSTICK
+	sw_id = SW_ID_3DP ;
+	return (TRUE);
+#endif
+
 }
 
 //------------------------------------------------------------------------------
@@ -694,6 +705,10 @@ void getdata(void)
 	uint8_t
 		i;
 
+#ifdef USE_FAKE_JOYSTICK
+	memset(sw_report, 0, sizeof(sw_report));
+#else
+
 	if (sw_id == SW_ID_3DP)
 	{
 #if SIXAXIS
@@ -746,6 +761,9 @@ void getdata(void)
 			CopyFFPData(ffp_packet); // Copy data into report
 		}
 	}
+
+#endif
+
 }
 
 //------------------------------------------------------------------------------
