@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Sidewinder3DPro-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -6,9 +7,9 @@ encoding utf-8
 Sheet 1 1
 Title "Microsoft Sidewinder 3D Pro USB Adapter"
 Date "2020-11-25"
-Rev ""
-Comp ""
-Comment1 ""
+Rev "1.0"
+Comp "www.franken.tech"
+Comment1 "Cristiano José Sulzbach"
 Comment2 ""
 Comment3 ""
 Comment4 ""
